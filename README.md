@@ -21,7 +21,7 @@ A teoria da computaço é dividida em 3 partes:
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>
 
 
-<p  align="center">
+<p  align="left">
 <a href= "https://blog.mphomphego.co.za/"><img src="https://img.icons8.com/material-outlined/26/000000/ball-point-pen.png"/></a>
 <a href= "https://www.linkedin.com/in/mphomphego/"><img src="https://img.icons8.com/material-outlined/30/000000/linkedin.png"/></a>
 <a href= "https://www.youtube.com/c/MphoMphego1"><img src="https://img.icons8.com/material-outlined/30/000000/youtube.png"/></a>
