@@ -15,8 +15,9 @@ A teoria da computaço é dividida em 3 partes:
 <a href="https://www.linkedin.com/in/brunocampos01" target="_blank"><img src="https://img.icons8.com/material/48/000000/linkedin--v1.png" alt="LinkedIn" width="30"></a>
 <a href="https://github.com/brunocampos01" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub" width="30"></a>
 <a href="https://github.com/brunocampos01" target="_blank"><img src="https://img.icons8.com/material/48/000000/stackoverflow.png" alt="GitHub" width="30"></a>
+<a href="https://brunocampos01.netlify.app/" target="_blank"><img src="https://img.icons8.com/material/48/000000/web.png" alt="Website" width="30">
+</a>
 <a href="https://github.com/brunocampos01" target="_blank"><img src="https://img.icons8.com/material/48/000000/medium.png" alt="GitHub" width="30">
 </a>
-<a href="https://brunocampos01.netlify.app/" target="_blank"><img src="https://img.icons8.com/material/48/000000/web.png" alt="Website" width="30"></a>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png",  align="right" /></a><br/>
 </p>
