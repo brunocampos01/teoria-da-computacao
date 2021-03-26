@@ -11,9 +11,10 @@ A teoria da computaço é dividida em 3 partes:
 
 <p  align="left">
 <br/>
+<a href="mailto:brunocampos01@gmail.com" target="_blank"><img src="https://img.icons8.com/material/48/000000/gmail--v1.png" alt="Gmail" width="30">
+</a>
 <a href="https://stackoverflow.com/users/8329698/bruno-campos" target="_blank"><img src="https://img.icons8.com/material/48/000000/stackoverflow.png" alt="GitHub" width="30">
 </a>
-<a href="mailto:brunocampos01@gmail.com" target="_blank"><img src="https://img.icons8.com/material/48/000000/gmail--v1.png" alt="Gmail" width="30"></a>
 <a href="https://www.linkedin.com/in/brunocampos01" target="_blank"><img src="https://img.icons8.com/windows/48/000000/linkedin.png" alt="LinkedIn" width="30"></a>
 <a href="https://github.com/brunocampos01" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub" width="30"></a>
 <a href="https://brunocampos01.netlify.app/" target="_blank"><img src="https://img.icons8.com/material/48/000000/web.png" alt="Website" width="30">
