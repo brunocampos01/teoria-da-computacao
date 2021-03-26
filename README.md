@@ -1,7 +1,6 @@
 # Teoria da Computação
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6f4c4d114f684374a142090ce8bc799f)](https://www.codacy.com/gh/brunocampos01/introducao-a-programacao-orientada-a-objetos/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/introducao-a-programacao-orientada-a-objetos&amp;utm_campaign=Badge_Grade)
-![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
-![java](https://img.shields.io/badge/ufsc-Introdu%C3%A7%C3%A3o%20%C3%A0%20Informatica-green.svg)
+![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
+![java](https://img.shields.io/badge/UFSC-Introdu%C3%A7%C3%A3o%20%C3%A0%20Informatica-blue.svg)
 
 A teoria da computaço é dividida em 3 partes:
 - Teoria da computabilidade
