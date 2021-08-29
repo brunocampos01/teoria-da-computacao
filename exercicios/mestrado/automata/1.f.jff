@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>201.0</x>
+			<y>228.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>325.0</x>
+			<y>73.0</y>
+			<label>F: L = ∅ (a linguagem não aceita nenhuma palavra). Considere o alfabeto Σ = {0, 1}</label>
+		</state>
+		<state id="2" name="q2">
+			<x>453.0</x>
+			<y>226.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+	</automaton>
+</structure>

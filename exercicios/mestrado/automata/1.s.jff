@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>125.0</x>
+			<y>351.0</y>
+		</state>
+		<state id="1" name="q1">
+			<x>678.0</x>
+			<y>169.0</y>
+			<final/>
+		</state>
+		<state id="2" name="q2">
+			<x>405.0</x>
+			<y>33.0</y>
+			<label>S: L = { w | w ∈ {0, 1} + e w possui um número de 0 divisível por 5 }</label>
+		</state>
+		<state id="7" name="q7">
+			<x>136.0</x>
+			<y>169.0</y>
+			<initial/>
+		</state>
+		<state id="8" name="q8">
+			<x>301.0</x>
+			<y>257.0</y>
+		</state>
+		<state id="9" name="q9">
+			<x>390.0</x>
+			<y>258.0</y>
+		</state>
+		<state id="10" name="q10">
+			<x>494.0</x>
+			<y>257.0</y>
+		</state>
+		<state id="11" name="q11">
+			<x>590.0</x>
+			<y>258.0</y>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>7</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>10</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>8</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>9</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>8</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>8</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>9</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>10</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>11</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>9</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>11</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>0</to>
+			<read>0</read>
+		</transition>
+	</automaton>
+</structure>

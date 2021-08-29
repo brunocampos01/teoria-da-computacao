@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>279.0</x>
+			<y>228.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>536.0</x>
+			<y>228.0</y>
+			<final/>
+		</state>
+		<state id="2" name="q2">
+			<x>395.0</x>
+			<y>69.0</y>
+			<label>I: L = { w | w ∈ {a, b, #} + e w começa e termina com # e não possui # no meio da palavra }</label>
+		</state>
+		<state id="3" name="q3">
+			<x>409.0</x>
+			<y>183.0</y>
+		</state>
+		<state id="4" name="q4">
+			<x>392.0</x>
+			<y>359.0</y>
+			<label>morto</label>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>3</to>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>4</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>4</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>1</to>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>4</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>4</to>
+			<read>a</read>
+		</transition>
+	</automaton>
+</structure>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>139.0</x>
+			<y>207.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="q1">
+			<x>248.0</x>
+			<y>208.0</y>
+		</state>
+		<state id="2" name="q2">
+			<x>483.0</x>
+			<y>206.0</y>
+			<final/>
+		</state>
+		<state id="3" name="q3">
+			<x>371.0</x>
+			<y>206.0</y>
+		</state>
+		<state id="4" name="q4">
+			<x>310.0</x>
+			<y>37.0</y>
+			<label>B: L = { w | w ∈ {0, 1} + e w começa com 0 e |w| ≥ 3 }</label>
+		</state>
+		<state id="5" name="q5">
+			<x>308.0</x>
+			<y>317.0</y>
+			<label>morto</label>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>5</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>5</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>2</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>2</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>5</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+	</automaton>
+</structure>

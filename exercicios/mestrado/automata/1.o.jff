@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="q0">
+			<x>382.0</x>
+			<y>52.0</y>
+			<label>O: L = { w | w ∈ {0, 1, 2} ∗ e w = 0m1 n2 o e n, m, o ≥ 0 }</label>
+		</state>
+		<state id="1" name="q1">
+			<x>378.0</x>
+			<y>207.0</y>
+			<initial/>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>1</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>2</read>
+		</transition>
+	</automaton>
+</structure>
