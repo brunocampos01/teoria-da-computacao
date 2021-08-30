@@ -45,7 +45,6 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
@@ -54,7 +53,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
@@ -71,6 +69,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
 
 # pyenv
 .python-version
@@ -90,6 +92,18 @@ ENV/
 env.bak/
 venv.bak/
 
+# Virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -102,3 +116,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE, text editor
+.idea/
+.vscode/*
