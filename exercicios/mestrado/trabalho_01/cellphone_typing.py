@@ -88,13 +88,16 @@ def main():
         list_words.append(word)
         tree.insert(word)
 
+        # obtem uma quantidade de teclas digitadas a partir de um dicionário de palavras
         ans = sum(
             tree.get_total_keystrokes_by_word(word=word)
             for word in list_words
         )
 
+        # média de pressionamentos de tecla por dicionário
         print(round(ans / len(list_words), 2))
 
+        # a soma dos comprimentos de todas as palavras é no máximo 10 ^ 6
         total_len = [len(w) for w in list_words][0]
         if total_len >= 10 * 6:
             break
