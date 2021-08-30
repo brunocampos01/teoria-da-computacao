@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+#include <iostream>
 using namespace std;
 #define D(x)  cout<< #x " = "<<(x)<<endl
 
@@ -51,13 +51,16 @@ struct Trie {
 Trie tree;
 int main(){
   int n;
-  while (cin >> n) {
+  while (cin >> n) { // cin = stream de entrada
     vector<string> words(n);
     tree.clear();
     for (int i = 0; i < n; ++i) {
       cin >> words[i];
-      words[i] += "$";
+      words[i] += "$"; // adiciona $ no fim da word
       tree.add(words[i].c_str());
+      printf("%c\n", i);
+      printf("%s\n", words[i].c_str());
+      printf("%d\n", n);
     }
     double ans = 0;
     for (int i = 0; i < n; ++i)

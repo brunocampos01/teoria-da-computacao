@@ -1,3 +1,5 @@
+# source: https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1
+
 from typing import Tuple
 
 
@@ -10,7 +12,7 @@ class TrieNode(object):
         self.char = char
         self.children = []
         # Is it the last character of the word.`
-        self.is_end = False
+        self.word_finished = False
         # How many times this character appeared in the addition process
         self.counter = 1
 
@@ -20,10 +22,7 @@ def add(root, word: str):
     Adding a word in the trie structure
     """
     node = root
-
-    print(f'word = {word}')
     for char in word:
-        print(f'char = {char}')
         found_in_child = False
         # Search for the character in the children of the present `node`
         for child in node.children:
@@ -31,22 +30,18 @@ def add(root, word: str):
                 # We found it, increase the counter by 1 to keep track that another
                 # word has it as well
                 child.counter += 1
-                # print(f'child.char == char = {child.counter}')
-
                 # And point the node to the child that contains this char
                 node = child
                 found_in_child = True
                 break
-
         # We did not find it so add a new chlid
         if not found_in_child:
             new_node = TrieNode(char)
-            print(new_node)
             node.children.append(new_node)
             # And then point node to the new child
             node = new_node
     # Everything finished. Mark it as the end of a word.
-    node.is_end = True
+    node.word_finished = True
 
 
 def find_prefix(root, prefix: str) -> Tuple[bool, int]:
@@ -79,31 +74,13 @@ def find_prefix(root, prefix: str) -> Tuple[bool, int]:
     return True, node.counter
 
 
-def avg_of_keystrokes():
-    pass
-
-
-
 if __name__ == "__main__":
     root = TrieNode('*')
-    add(root, "hello")
-    print()
-    add(root, 'heaven')
-    print()
-    add(root, 'goodbye')
-    print(79 * '*')
+    add(root, "hackathon")
+    add(root, 'hack')
 
-    print(find_prefix(root, 'h')) # 1
-    print(find_prefix(root, 'he')) # 1 + 1
-    print(find_prefix(root, 'hel')) # 1 + 1 + 1
-    print(find_prefix(root, 'hell'))  # incluirá um segundo "l" + "o" automaticamente
-    print(find_prefix(root, 'hello'))
-    # print(find_prefix(root, 'heaven'))
-
-    print(79 * '*')
-    print(find_prefix(root, 'g'))
-    print(find_prefix(root, 'goodbye'))
-    # print(find_prefix(root, 'ha'))
-
-    print(root.char)
-    print(root.__dict__)
+    print(find_prefix(root, 'hac'))
+    print(find_prefix(root, 'hack'))
+    print(find_prefix(root, 'hackathon'))
+    print(find_prefix(root, 'ha'))
+    print(find_prefix(root, 'hammer'))
