@@ -50,28 +50,37 @@ class Trie:
         return total_keystrokes
 
 
+tree = Trie()
+
+
 def main():
-    tree = Trie()
-    n = int(input())
-    while 1 <= n <= 10 * 5:
-        list_words = []
-        word = str(input())[:80]  # contém uma string não vazia de no máximo 80 letras minúsculas
-        list_words.append(word)
-        tree.insert(word)
+    # list_words = ['hello', 'hell', 'heaven', 'goodbye']
+    # tree.insert("hello")
+    # tree.insert("hell")
+    # tree.insert("heaven")
+    # tree.insert("goodbye")
+    #
+    # list_words = ['hi', 'he', 'h']
+    # tree.insert("hi")
+    # tree.insert("he")
+    # tree.insert("h")
 
-        # obtem uma quantidade de teclas digitadas a partir de um dicionário de palavras
-        ans = sum(
-            tree.get_total_keystrokes_by_word(word=word)
-            for word in list_words
-        )
+    list_words = ['structure', 'structures', 'ride', 'riders', 'stress', 'solstice', 'ridiculous']
+    tree.insert("structure")
+    tree.insert("structures")
+    tree.insert("ride")
+    tree.insert("riders")
+    tree.insert("stress")
+    tree.insert("solstice")
+    tree.insert("ridiculous")
 
-        # média de pressionamentos de tecla por dicionário
-        print(round(float(ans) / float(len(list_words)), 2))
+    ans = float()
+    for i in list_words:
+        ans += tree.get_total_keystrokes_by_word(word=i)
 
-        # a soma dos comprimentos de todas as palavras é no máximo 10 ^ 6
-        total_len = [len(w) for w in list_words][0]
-        if total_len >= 10 * 6:
-            break
+    # média de pressionamentos de tecla por dicionário
+    a = ans / float(len(list_words))
+    print(round(a, 2)) # 35%
 
 
 if __name__ == '__main__':
