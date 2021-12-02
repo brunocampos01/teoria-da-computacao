@@ -33,11 +33,6 @@ A teoria da computaço é dividida em 3 partes:
   - https://www.youtube.com/watch?v=THfI9D33e6E
   - https://www.youtube.com/watch?v=IPnOwXit_B0
   - https://www.youtube.com/watch?v=A_OHWX-owTs
-- Redutibilidade
-
-
-
-videos da grad: https://www.youtube.com/playlist?list=PLaPmgS59eMSGBPhHwyDLUzFrtTsc2yHJt
 
 ---
 
