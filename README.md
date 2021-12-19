@@ -3,7 +3,7 @@
 ![java](https://img.shields.io/badge/UFSC-Teoria_da_Computação-blue.svg)
 
 
-## Teoria da Computação
+## Theory of Computation
 A teoria da computação é dividida em 3 partes:
 - Teoria da computabilidade
 - Teoria da complexidade
