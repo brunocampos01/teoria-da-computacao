@@ -71,7 +71,7 @@ Cabeçote move para a esquerda e para a direita exatamente uma posição
 
 <br/>
 
-[Aqui](exercicios/mestrado/resolucao_maquina_turing.pdf) tem um exemplo de resolução de questões sobre _Turing Machine_.
+[Aqui](exercicios/mestrado/turing_machine/resolucao_maquina_turing.pdf) tem um exemplo de resolução de questões sobre _Turing Machine_.
 
 
 ## Pumping Lema
