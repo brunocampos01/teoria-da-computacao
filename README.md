@@ -10,7 +10,7 @@ A teoria da computação é dividida em 3 partes:
 - Teoria dos autômatos e linguagens: usa técnica para reconhecer padrões, define gramáticas.
 
 
-## Hierarquia de Chomsky
+## Chomsky's Hierarchy
 
 <img src="images/hierarquia.png" align="center" height=auto width=60%/>
 
