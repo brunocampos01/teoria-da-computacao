@@ -1,11 +1,87 @@
 # Teoria da Computação
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-![java](https://img.shields.io/badge/UFSC-Introdu%C3%A7%C3%A3o%20%C3%A0%20Informatica-blue.svg)
+![java](https://img.shields.io/badge/UFSC-Teoria_da_Computação-blue.svg)
 
-A teoria da computaço é dividida em 3 partes:
+
+## Teoria da Computação
+A teoria da computação é dividida em 3 partes:
 - Teoria da computabilidade
 - Teoria da complexidade
 - Teoria dos autômatos e linguagens: usa técnica para reconhecer padrões, define gramáticas.
+
+
+## Hierarquia de Chomsky
+
+<img src="images/hierarquia.png" align="center" height=auto width=60%/>
+
+<br/>
+
+## Regular Languages
+São as linguagens mais simples na Hierarquia de Chomsky.
+<br/>
+Exemplos:
+- Analisador léxico
+- Pesquisar por ocorrência de um padrão em uma palavra
+
+### Regular Expressions
+Expressão regular (ER) é outra forma de representar linguagens regulares.
+
+
+## Context-Free Grammars
+São linguagens mais poderosas que as linguagens regulares.
+<br/>
+Exemplos:
+- Analisador sintático
+- Processador de texto
+
+## Finite Automata
+- É um modelo computacional que reconhece classes de linguagens regulares. Para fazer isso, só mantem o estado atual.
+
+<img src="images/automato.png" align="center" height=auto width=40%/>
+
+<br/>
+
+#### Exemplo de ADF
+<img src="images/afd.png" align="center" height=auto width=70%/>
+
+<br/>
+
+#### Exemplo de AFND
+<img src="images/afnd.png" align="center" height=auto width=70%/>
+
+<br/>
+
+## Turing Machine
+Alan Turing criou a _Turing Machine_ para compreender a computabilidade.
+
+> Note: Computador quântico não invalida a tese de Church-Turing
+
+#### Representation
+<img src="images/turing_machine_def.png" align="center" height=auto width=70%/>
+
+- Fita infinita é dividida em células
+- Cabeçote lê e escreve símbolos na fita
+Cabeçote move para a esquerda e para a direita exatamente uma posição
+- Cabeçote armazena um estado
+- Células da fita contém exatamente um símbolo
+- Células não inicialmente preenchidas possuem um símbolo de vazio
+
+#### Turing Machine Example
+<img src="images/turing_machine.png" align="center" height=auto width=70%/>
+
+<br/>
+
+[Aqui](exercicios/mestrado/resolucao_maquina_turing.pdf) tem um exemplo de resolução de questões sobre _Turing Machine_.
+
+
+## Pumping Lema
+O Pumping Lema serve para provar que algo não pertence a uma linguagem/gramática
+- [Exercícios resolvidos](teoria-da-computacao/conteudos/mestrado/linguagens_regulares-ufmg.pdf)
+
+
+## References
+- [1] Michael Sipser, Introduction to the Theory of Computation
+
 
 ---
 
