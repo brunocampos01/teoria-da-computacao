@@ -57,7 +57,7 @@ Alan Turing criou a _Turing Machine_ para compreender a computabilidade.
 > Note: Computador quântico não invalida a tese de Church-Turing
 
 #### Representation
-<img src="images/turing_machine_def.png" align="center" height=auto width=70%/>
+<img src="images/turing_machine_def.png" align="center" height=auto width=50%/>
 
 - Fita infinita é dividida em células
 - Cabeçote lê e escreve símbolos na fita
@@ -77,7 +77,7 @@ Cabeçote move para a esquerda e para a direita exatamente uma posição
 ## Pumping Lema
 O Pumping Lema serve para provar que algo não pertence a uma linguagem/gramática
 
-#### References
+## References
 - [1] Michael Sipser, Introduction to the Theory of Computation
 
 
