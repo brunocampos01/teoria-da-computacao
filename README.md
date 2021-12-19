@@ -76,10 +76,8 @@ Cabeçote move para a esquerda e para a direita exatamente uma posição
 
 ## Pumping Lema
 O Pumping Lema serve para provar que algo não pertence a uma linguagem/gramática
-- [Exercícios resolvidos](teoria-da-computacao/conteudos/mestrado/linguagens_regulares-ufmg.pdf)
 
-
-## References
+#### References
 - [1] Michael Sipser, Introduction to the Theory of Computation
 
 
